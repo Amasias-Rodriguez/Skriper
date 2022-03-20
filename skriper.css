@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background: #000;
+}
+
+/* HEADER NAV LOGO */
+
+.nav{
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid red; */
+}
+.logo{
+    margin-top: 10px;
+}
+.imagen1{
+    width: 90px;
+    margin-left: 10px;
+}
+
+.buttons ul li{
+    /* width: 118px; */
+    height: 35px;
+    display: inline-block;
+    position: relative;
+    right: 10px;
+    bottom: 0;
+    padding: 0 10px;
+    margin-top: 10px;
+    font-size: 16px;  
+    cursor: pointer;
+    color:#fff;
+}
+
+.coding-button{
+    background-color: #4c83ff;
+    width: 150px;
+    text-align: end;
+    color: #fff;
+    border-radius: 2px;
+    padding: 10px 30px;
+    margin-right: 10px;
+}
+
+.pulse-icon{
+    width: 18px;
+    height: 18px;
+    color: #fff;
+    position: relative;
+    top: 4px;
+    right: 8px;
+}
+
+.fa-solid, .fa-star, fa-stopwatch, .fa-addres-card{
+    padding-right: 10px;
+}
+
+.fa-wave-pulse{
+    margin-right: 6px;
+}
+
+ 
+.coding-login{
+    border: 1px solid rgb(75, 74, 74);
+    width: 90px;
+    text-align: end;
+    padding: 25px 0;
+    border-radius: 2px;
+}
+
+.login-icon{
+    background: #fff;
+    width: 16px;
+    height: 16px;
+    position: relative;
+    right: 12px;
+    top: 2px;
+    border-radius: 50%;
+}
+
+.coding-search{
+    border: 1px solid rgb(75, 74, 74);
+    width: 40px;
+    padding: 25px 0;
+    border-radius: 2px;
+}
+
+.search-icon{
+    width: 19px;
+    /* border: 1px solid red; */
+    position: relative;
+    top: 4px;
+
+}
+
+
+
+
