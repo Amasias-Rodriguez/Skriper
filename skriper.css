@@ -13,21 +13,26 @@ body{
 
 /* HEADER NAV LOGO */
 
-.nav{
-    height: 70px;
+.header{
+    position: sticky;
+    top: 0;
     display: flex;
     justify-content: space-between;
+    background-color: #000;
+    z-index: 1;
 }
+
+
 .logo{
     margin-top: 10px;
 }
+
 .imagen1{
     width: 90px;
     margin-left: 10px;
 }
 
 .buttons ul li{
-    /* width: 118px; */
     height: 35px;
     display: inline-block;
     position: relative;
@@ -46,7 +51,6 @@ body{
     text-align: center;
     color: #fff;
     border-radius: 2px;
-    /* padding: 5px 30px; */
     margin-right: 10px;
 }
 
@@ -124,15 +128,16 @@ body{
 .section1-pp{
     width: 940px;
     height: 195px;
-    /* border: 1px solid red; */
     position: relative;
     top: 30px;
     left: 15%;
 }
 
 .p-section1{
-    /* background: linear-gradient(292.46deg,#27ae60 17.79%,#2f80ed 35.92%,#9b51e0 54.06%,#eb5757 71.08%,#f2994a 87.36%); */
-    color:#fff;
+    background: linear-gradient(292.46deg,#27ae60 17.79%,#2f80ed 35.92%,#9b51e0 54.06%,#eb5757 71.08%,#f2994a 87.36%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     font-family: 'Poppins', sans-serif;
     font-size: 70px;
     font-weight: 600;
@@ -142,8 +147,11 @@ body{
 }
 
 .ideas{
-    /* background: linear-gradient(292.46deg,#27ae60 17.79%,#2f80ed 35.92%,#9b51e0 54.06%,#eb5757 71.08%,#f2994a 87.36%); */
-    color:#fff;
+    background-image: linear-gradient(292.46deg,#27ae60 17.79%,#2f80ed 35.92%,#9b51e0 54.06%,#eb5757 71.08%,#f2994a 87.36%);
+    background-color: linear-gradient(292.46deg,#27ae60 17.79%,#2f80ed 35.92%,#9b51e0 54.06%,#eb5757 71.08%,#f2994a 87.36%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     font-size: 70px;
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
@@ -189,13 +197,12 @@ body{
 }
 
 .section3{
-    max-width: 978px;
-    height: 369px;
+    max-width: 940px;
+    height: 339px;
     color: #fff;
     position: relative;
     top: 100px;
     margin: 0 auto;   
-    border: 1px solid red; 
 }
 
 .containersec3{
@@ -221,30 +228,7 @@ body{
     position: relative;
     left: 108%;
     bottom: 90%;
-}
-
-.section4-container1{
-    max-width: 978px;
-    height: 115px;
-    color: #fff;
-    position: relative;
-    top: 140px;
-    margin: 0 auto;   
-    border: 1px solid red; 
-    display: flex;
-    gap: 40px;
-}
-
-.containertextsec4{
-    display: inline-block;
-    border: 1px solid rgb(4, 0, 255);
-    width: 650px;
-    height: 115px;
-}
-
-.imgsec4-1{
-    width: 250px;
-    height: 105px;
+    margin-top: 84px;
 }
 
 /* SECTION 4 */
@@ -282,11 +266,11 @@ body{
 /* FOOTER */
 
 .footer{
-    width: 1361px;
-    height: 255px;
-    background-color: hsla(0,0%,100%,.05);
-    position: relative;
-    top: 210px;
+width: 1349px;
+height: 315px;
+background-color: hsla(0,0%,100%,.05);
+position: relative;
+top: 200px;
 }
 
 .footcontainer{
@@ -310,6 +294,7 @@ top: 55px;
 .fa-brands{
     margin: 0 auto;
     padding: 0 10px;
+    cursor: pointer;
 }
 
 .links ul{
@@ -320,6 +305,7 @@ top: 55px;
 
 .links ul li{
     margin-top: 10px;
+    cursor: pointer;
 }
 
 .linksh1{
@@ -333,6 +319,10 @@ top: 55px;
     padding: 4px 0;
 }
 
-
-
-
+.gmail{
+    background: linear-gradient(292.46deg,#27ae60 17.79%,#2f80ed 35.92%,#9b51e0 54.06%,#eb5757 71.08%,#f2994a 87.36%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 600;
+}
