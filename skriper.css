@@ -247,5 +247,92 @@ body{
     height: 105px;
 }
 
+/* SECTION 4 */
+
+.section4-container1{
+    max-width: 978px;
+    height: 115px;
+    color: #fff;
+    position: relative;
+    top: 140px;
+    margin: 0 auto;   
+    display: flex;
+    gap: 40px;
+}
+
+.containertextsec4{
+    width: 650px;
+    height: 115px;
+}
+
+.imgsec4-1{
+    width: 250px;
+    height: 105px;
+}
+
+.con1{
+    margin-top: 50px;
+}
+
+.con2, .con3, .con4{
+    margin-top: 40px;
+}
+
+
+/* FOOTER */
+
+.footer{
+    width: 1361px;
+    height: 255px;
+    background-color: hsla(0,0%,100%,.05);
+    position: relative;
+    top: 210px;
+}
+
+.footcontainer{
+width: 1000px;
+height: 255px;
+margin: 0 auto;
+display: flex;
+justify-content: space-between;
+position: relative;
+top: 55px;
+}
+
+.footerlogo{
+    color: #fff;
+}
+
+.footertitle{
+    font-size: 16px;
+}
+
+.fa-brands{
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.links ul{
+    list-style: none;
+    font-size: 14px;
+    color: #fff;
+}
+
+.links ul li{
+    margin-top: 10px;
+}
+
+.linksh1{
+    color: #aaa9a9;
+    font-size: 16px;
+}
+
+.copyright p{
+    font-size: 16px;
+    color: #fff;
+    padding: 4px 0;
+}
+
+
 
 
